@@ -1,0 +1,486 @@
+body, h1, h2, h3, p, ul, li{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Condensed', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{
+    font-family: 'teko', Arial, Helvetica, sans-serif;
+    font-size: 1.857em;
+    text-transform: uppercase;
+    margin: 0 auto;
+    color: #f1f1f1;
+    padding-top: 2%;
+    text-align: center;
+}
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Secao 1 */
+.bg-section-1{
+    /* background: #f1f1f1; */
+    background-image: url(../img/bg-textura.PNG)
+}
+.img-section-1 img{
+    width: 100%;
+    padding: 2% 0;
+}
+.bg-span{
+    background: #1E6496;
+}
+.span-realizacao{
+    color: #f1f1f1;
+    font-family: 'teko', Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    text-align: center;
+}
+/* Secao 2 */
+.bg-section-2{
+    background: #797979;
+    padding-bottom: 2%;
+}
+.section-2{
+    color: #f1f1f1;
+    max-width: 700px;
+    /* padding: 2% 0; */
+}
+.section-2 p{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.45em;
+    line-height: normal;
+    line-height: 30px;
+    text-align: justify;
+}
+.section-2 p:last-child{
+    margin-top: 15px;
+}
+/* Secao 3 */
+.bg-section-3{
+    background: #1E6496;
+}
+.section-3 h2{
+    color: #f1f1f1;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 1.5em;
+}
+.img-date img{
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.section-3 p{
+    color: #f1f1f1;
+    text-align: center;
+    font-size: 1em;
+    line-height: 20px;
+}
+.section-3 p:last-child{
+    padding-bottom: 30px;
+}
+.btn-inscrever{
+  display: flex;
+  justify-content: center;
+}
+.btn-inscrever a{
+    background: #D57B09;
+    border: none;
+    border-radius: 10px;
+    font-family: 'teko', Arial, Helvetica, sans-serif;
+    font-size: 1.875em;
+    color: #f1f1f1;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 2% 0;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+/* Secao 4 */
+.bg-section-4{
+    background: #D57B09;
+    padding-bottom: 2%;
+}
+.bg-section-4 h1{
+    padding: 15px 0;
+}
+.horarios-programacao{
+    /* background: tomato; */
+    display: flex; 
+    width: 100%;
+    margin-bottom: 2%;
+    color: #f1f1f1;
+}
+.horario-item{
+    /* background: turquoise; */
+    width: 20%;
+    text-align: end;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.programacao-item{
+    /* background: tan; */
+    width: 80%;
+    padding-left: 2%;
+}
+.programacao-item h3{
+    text-decoration: none;
+    font-size: 1.5em;
+}
+/* secao 5 */
+.bg-section-5{
+    background: #1E6496;
+    padding-bottom: 2%;
+}
+.palestra-container{
+    /* background: tomato; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.palestra-item{
+    /* background: turquoise; */
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-palestrante img{
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid #D57B09;
+    margin: 5% 0 0 2%;
+}
+.section-5 span{
+    /* background: #797979; */
+    width: 100%;
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 1.5em;
+    font-family: 'teko', Arial, Helvetica, sans-serif;
+}
+.palestrante-conteudo{
+    width: 80%;
+    align-content: center;
+    padding-left: 2%;
+    color: #f1f1f1;
+}
+.palestrante-conteudo h2{
+    text-decoration: none;
+    font-family: 'teko', Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+}
+.palestrante-conteudo h3{
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    padding-bottom: 1%;
+}
+.palestrante-conteudo p{
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 24px;
+}
+/* Secao 6 */
+
+.bg-section-6{
+    background: #252525;
+}
+.section-6{
+    /* background: tomato; */
+    color: #f1f1f1;
+ 
+}
+.container-rodape-1 {
+    /* background: thistle; */
+    padding-top: 2%;
+    padding-left: 5%;
+    width: 60%;
+}
+.img-rodape{
+    display: flex;
+    /* background: red; */
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo-rodape img{
+    width: 200px;
+    /* background: #F28606; */
+}
+.logo-rodape img:first-child{
+    margin-right: 50px;
+}
+
+.container-rodape-2{
+    /* background: seagreen; */
+    width: 40%;
+    padding-top: 2%;
+    padding-left: 5%;
+}
+.container-rodape-2 p{
+    margin-bottom: 10%;
+}
+
+.paragrafo-rodape{
+ text-decoration: none;
+ text-align: center;
+ color: #f1f1f1;
+ padding-bottom: 2%;
+ font-size: 1em;
+}
+.copyright-rodape p{
+    font-size: 0.8em;
+}
+
+/* Responsive */
+@media (max-width: 320px){
+  /* GLOBAL */
+    h1{
+      font-size: 1.2em;
+      letter-spacing: 1px;
+  }
+  /* SECTION 1 */
+    .img-section-1{
+    padding: 2% 2%;
+  }
+    .span-realizacao{
+      font-size: 1.2em;
+  }
+  /* SECTION 2 */
+  .section-2{
+      padding: 0 3% 3% 3%;
+  }
+  .section-2 p{
+      font-size: 1em;
+      line-height: 1.2em;
+      text-align: justify;
+  }
+  /* SECTION 3 */
+  .bg-section-3{
+      padding-top: 2%;
+  }
+  .section-3 h2{
+    font-size: 1.2em;
+}
+.img-date img{
+    width: 80px;
+    margin-top: 2%;
+}
+.btn-inscrever a{
+    font-size: 1.5em;
+    margin: 5% 0;
+    padding: 10px 25px;
+}
+/* SECTION 4 */
+.bg-section-4{
+    padding-bottom: 5%;
+}
+.horarios-programacao{
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    padding-top: 5%;
+}
+.horarios-programacao:first-child{
+    padding-top: 0px;
+}
+.horario-item{
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    color: #f1f1f1;
+}
+.programacao-item{
+    width: 100%;
+    text-align: center;
+    font-size: 0.9em;
+   
+}
+.programacao-item h3{
+    font-size: 1em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+/* SECTIOn 5 */
+.palestra-container{
+    flex-direction: column;
+    text-align: center;
+}
+.palestra-item{
+    max-width: 320px;
+    width: 70%;
+}
+.section-5 span{
+    font-size: 1.2em;
+}
+.palestrante-conteudo h2{
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    line-height: 1.1em;
+}
+.palestrante-conteudo h3{
+    font-size: 1em;
+}
+.palestrante-conteudo p{
+    font-size: 0.8em;
+    line-height: 1.5em;
+    text-align: justify;
+}
+/* SECTION 6 */
+.section-6{
+    flex-direction: column;
+}
+.container-rodape-1{
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+.container-rodape-2{
+    width: 100%;
+    text-align: center;
+}
+.logo-rodape{
+    width: 100%;
+
+}
+.logo-rodape img{
+    width: 150px;
+    margin: 0 10px 0 40px;
+}
+
+.container-rodape-2 p{
+    margin-bottom: 0;
+    margin-top: 2%;
+}
+.paragrafo-rodape{
+    padding-top: 10%;
+    padding-bottom: 0;
+    font-size: 1em;
+}
+.copyright-rodape p{
+    font-size: 0.6em;
+    padding-bottom: 5%;
+}
+}
+
+@media (max-width: 739px){
+    /* GLOBAL */
+      h1{
+        font-size: 1.2em;
+        letter-spacing: 1px;
+    }
+    /* SECTION 1 */
+      .img-section-1{
+      padding: 2% 2%;
+    }
+      .span-realizacao{
+        font-size: 1.2em;
+    }
+    /* SECTION 2 */
+    .section-2{
+        padding: 0 3% 3% 3%;
+    }
+    .section-2 p{
+        font-size: 1em;
+        line-height: 1.2em;
+        text-align: justify;
+    }
+    /* SECTION 3 */
+    .bg-section-3{
+        padding-top: 2%;
+    }
+    .section-3 h2{
+      font-size: 1.2em;
+  }
+  .img-date img{
+      width: 80px;
+      margin-top: 2%;
+  }
+  .btn-inscrever a{
+      font-size: 1.5em;
+      margin: 5% 0;
+      padding: 10px 25px;
+  }
+  /* SECTION 4 */
+   .bg-section-4{
+      padding-bottom: 5%;
+  }/*
+  .horarios-programacao{
+      margin: 0;
+      padding: 0;
+      flex-direction: column;
+      padding-top: 5%;
+  }
+  .horarios-programacao:first-child{
+      padding-top: 0px;
+  }
+  .horario-item{
+      text-align: center;
+      font-size: 1em;
+      width: 100%;
+      color: #f1f1f1;
+  }
+  .programacao-item{
+      width: 100%;
+      text-align: center;
+      font-size: 0.9em;
+     
+  }
+  .programacao-item h3{
+      font-size: 1em;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      text-transform: uppercase;
+  } */
+  /* SECTIOn 5 */
+  .palestra-container{
+        padding: 0 5% 0 5%;
+  }
+  
+  /* SECTION 6 */
+  .section-6{
+      /* flex-direction: column; */
+  }
+  .container-rodape-1{
+      width: 100%;
+      text-align: center;
+      margin-top: 5%;
+  }
+  .container-rodape-2{
+      width: 100%;
+      text-align: center;
+  }
+  .logo-rodape{
+      width: 100%;
+  
+  }
+  .logo-rodape img{
+      width: 100px;
+      margin: 0 10px 0 40px;
+  }
+  
+  .container-rodape-2 p{
+      margin-bottom: 0;
+      margin-top: 2%;
+  }
+  .paragrafo-rodape{
+      padding-top: 10%;
+      padding-bottom: 0;
+      font-size: 1em;
+  }
+  .copyright-rodape p{
+      font-size: 0.6em;
+      padding-bottom: 5%;
+  }
+  }
